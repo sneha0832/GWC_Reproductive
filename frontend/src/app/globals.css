@@ -24,3 +24,91 @@ body {
   color: var(--foreground);
   font-family: Arial, Helvetica, sans-serif;
 }
+
+/*Home page */
+
+/*Menu*/
+#menu{
+  width: auto;
+  height: 50px;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#container{
+  list-style-type: none;
+  margin-right: 120px;
+
+}
+
+li{
+  float: right;
+
+}
+
+#box{
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  padding-top: 10px;
+  padding-left: 40px;
+  padding-right: 40px;
+  height: 50px;
+
+}
+
+#box:hover{
+  background-color: pink;
+}
+#box2{
+  padding: 10px;
+  width: 200px;
+}
+
+#dropdown{
+  display: none;
+  background-color: black;
+  color: white;
+  padding: 10px;
+  text-align: center;
+}
+
+#box:hover #dropdown{
+  display: block;
+  position: absolute;
+  left: 0px;
+  top: 50px;
+  border: 1px solid pink;
+}
+
+/*Home page */
+
+/*Intro*/
+
+#intro{
+  background-color: rgba(238, 194, 189,1);
+  height: 100vh;
+  width: auto;
+}
+
+#title{
+  position: absolute;
+  padding: 20px;
+  top: 150px;
+  left: 10vh;
+  color: hsl(30, 33%, 98%);
+  font-size: 55px;
+  font-family: "Racing Sans One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+#news_box{
+  position: absolute;
+  right: 10vh;
+  top: 150px;
+  height: 200px;
+  width: 100px;
+}
+/*Intro*/
